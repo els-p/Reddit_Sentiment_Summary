@@ -21,6 +21,8 @@ The dataset could also be copied and pasted as stickes into a Miro board. Miro r
 <img width="600" src="https://github.com/els-p/Reddit_Sentiment_Summary/assets/51525011/d617a7f6-fd54-4b62-8956-d7e62cad2a19">
 
 
+<br>
+<br>
 I found the result to be different from the model output and prefer the model output.
 
 
