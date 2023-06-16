@@ -16,6 +16,14 @@ Posts with images, httpsreddit.com links are excluded from the dataset.
 ## Modelling
 [This roBERTa-base model](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment) trained on ~58M tweets and finetuned for sentiment analysis with the TweetEval benchmark was shared on Hugging Face. I used it for sentiment analysis and label each post as positive, neutral or negative. For a summary of each sentiment group, I asked ChatGPT to "Write a simple code using openai api to summarise a corpus" and "how to improve accuracy of the output", then used ChatGPT's recommendation to summarise the dataset. See our [conversation](https://chat.openai.com/share/7dc71458-ee07-43db-9327-96d0a4fa2ae2). 
 
+The dataset could also be copied and pasted as stickes into a Miro board. Miro released a feature the *miro AI* that can group stickes by sentiment and write a summary:
+
+<img width="600" src="https://github.com/els-p/Reddit_Sentiment_Summary/assets/51525011/d617a7f6-fd54-4b62-8956-d7e62cad2a19">
+
+
+I found the result to be different from the model output and prefer the model output.
+
+
 ## Limitations
 There may be missed opportunites from the following:
 - The sentiment model is trained on twitter data instead of reddit data. As there could be intricacies in the writing style and words used, the outcome could be more acccurate given a model trained on crypto reddit data. 
